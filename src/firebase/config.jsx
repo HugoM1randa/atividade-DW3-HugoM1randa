@@ -4,14 +4,14 @@ import { getFirestore } from "firebase/firestore"
 import { getAuth } from "firebase/auth"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBgaoc_8HjFS333uhbpjvYz2lfIld62FYk",
-    authDomain: "lifedev-icoma.firebaseapp.com",
-    projectId: "lifedev-icoma",
-    storageBucket: "lifedev-icoma.firebasestorage.app",
-    messagingSenderId: "652379164002",
-    appId: "1:652379164002:web:442fd1fba8292fd873b03b",
-    measurementId: "G-9WPGGKDGRS"
-};
+    apiKey: "AIzaSyAv1dnKV0CX-riQ_AZ2Qac-nIyCZyuYQ-Q",
+    authDomain: "lifedev-miranda.firebaseapp.com",
+    projectId: "lifedev-miranda",
+    storageBucket: "lifedev-miranda.firebasestorage.app",
+    messagingSenderId: "729306882618",
+    appId: "1:729306882618:web:5b96941431d84096280b03",
+    measurementId: "G-XD08D4JP8P"
+  };
 
 const app = initializeApp(firebaseConfig)
 const analytics = getAnalytics(app)
